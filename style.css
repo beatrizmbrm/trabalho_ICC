@@ -1,0 +1,108 @@
+body{  
+    font-family: "Roboto Slab" , Helvetica , Arial , sans-serif;;
+    color: rgb(12, 11, 11);
+    background-color: rgb(214, 173, 214);
+ }
+
+iframe{
+    margin: 0 auto;
+}
+
+nav{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(51, 8, 47);
+}
+nav ul{
+    list-style: none;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+nav ul li{
+    width: 100%;
+    text-align:center;
+}
+nav ul li a{
+    display: inline-block;
+    padding: 10px 0;
+    width: 100%;
+    text-decoration: none;
+    color:rgb(245, 179, 210);
+}
+
+#link-contato:hover{
+    color: rgb(50, 60, 201);
+}
+
+#cpu h3 p u {
+    color: rgb(50, 60, 201);
+}
+#linguagem h3 p u {
+    color: rgb(50, 60, 201);
+}
+#sistema_bi p u  {
+    color: rgb(50, 60, 201);
+}
+#redes h3 p u {
+    color: rgb(50, 60, 201);
+}
+#mais_gostamos{
+    background-color: rgb(51, 8, 47);
+    text-align: center;
+
+}
+#menos_gostamos{
+    background-color: rgb(51, 8, 47);
+    text-align: center;
+
+}
+.tabela tr, td{
+    width: 800px;
+    border: 3px solid rgb(74, 19, 82);
+    background-image: url(https://wallpaperaccess.com/full/188825.jpg);
+    bottom: 50px;
+    height: 500px;
+    text-align: center;
+    border-bottom-width: medium;
+}
+
+#contato{
+    background-color: rgb(214, 155, 214);
+    height: 300px;
+    font-size: 15px;
+    flex-direction: row;
+    flex-wrap: wrap;
+    text-align: center;
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 4px 10px 5px 10px;
+}
+#foto{
+    width: 40px;
+    height: 40px;
+}
+
+#fone{
+    width: 15px;
+    height: 10px;
+}
+#email{
+    width: 40px;
+    height: 60px;
+}
+
+footer{
+    text-align: center;
+    background-color: rgb(201, 155, 201);
+    color: #f1f1f1;
+}
+
+@media only screen and (max-width: 600px) {
+    iframe {
+      width: 100%;
+    }
+  }
